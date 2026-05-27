@@ -26,6 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Doctoral student at Instituto de Física de Cantabria (IFCA, CSIC-UC). Bachelor of Science-Master of Science dual degree graduate
-in June 2020. Interests- ▪ Cosmic Microwave Background: Secondary Anisotropies and Component Separation ▪ Cosmological data analysis and
-interpretation ▪ Universe Models: Dark Energy and Modified Gravity models ▪ Relativistic Cosmology and Astrophysics
+Doctoral student at the Instituto de Física de Cantabria (IFCA, CSIC-UC), Santander, Spain. 
+I work in observational cosmology, with a focus on the cosmic microwave background (CMB) component separation. 
+My broader interests include CMB secondary anisotropies and spectral distortions, large-scale structure tracers, line intensity mapping, and cosmological data analysis in general.
