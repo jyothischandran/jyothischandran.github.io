@@ -9,21 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/projects/";
-              },
-            },{id: "dropdown-repositories",
-              title: "repositories",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/repositories/";
-              },
-            },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "publications",
           description: "Publications (journal articles, datasets, etc.) in reverse chronological order.",
           section: "Navigation",
@@ -37,30 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
-        },{id: "nav-presentations",
-          title: "presentations",
-          description: "Presentations and talks at conferences and seminars.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/presentations/";
-          },
-        },{id: "nav-theses",
-          title: "theses",
-          description: "Academic theses and dissertations.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/theses/";
-          },
-        },{id: "nav-certifications",
-          title: "certifications",
-          description: "Professional certifications and credentials.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/certifications/";
-          },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Curriculum vitae.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
