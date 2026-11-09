@@ -11,7 +11,7 @@ nav_order: 4
   <i class="fa-solid fa-file-pdf"></i> Download CV (PDF)
 </a>
 
-*Last updated: October 2026.*
+_Last updated: October 2026._
 
 <iframe src="{{ '/assets/pdf/cv.pdf' | relative_url }}" width="100%" height="900px" style="border: 1px solid var(--global-divider-color); border-radius: 6px; margin-top: 1.5rem;">
   Your browser does not display embedded PDFs.
