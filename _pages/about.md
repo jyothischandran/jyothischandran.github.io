@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Doctoral student at the Instituto de Física de Cantabria (IFCA, CSIC-UC), Santander, Spain. 
-I work in observational cosmology, with a focus on the cosmic microwave background (CMB) component separation. 
+Doctoral student at the Instituto de Física de Cantabria (IFCA, CSIC-UC), Santander, Spain.
+I work in observational cosmology, with a focus on the cosmic microwave background (CMB) component separation.
 My broader interests include CMB secondary anisotropies and spectral distortions, large-scale structure tracers, line intensity mapping, and cosmological data analysis in general.
