@@ -9,6 +9,11 @@ nav_order: 3
 
 ## 2026
 
+**Polarization-informed component separation for thermal SZ Compton-<em>y</em> map extraction**
+_Talk_ — XII Meeting on Fundamental Cosmology, University of Córdoba, Córdoba, Spain, November 2026.
+
+<!-- [slides](/assets/pdf/talks/2026-11-cordoba.pdf) -->
+
 **Hybrid _TQU_ Needlet ILC to mitigate Galactic foregrounds in tSZ reconstruction**
 _Contributed talk_ — Galactic Science and CMB Foregrounds, Instituto de Astrofísica de Canarias, Tenerife, Spain, October 2026.
 
