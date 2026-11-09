@@ -9,6 +9,10 @@ nav_order: 3
 
 ## 2026
 
+**Polarization-informed component separation for thermal SZ Compton-<em>y</em> map extraction**
+_Talk_ — XII Meeting on Fundamental Cosmology, University of Córdoba, Córdoba, Spain, November 2026.
+[slides](https://docs.google.com/presentation/d/1gTfaVI7KQSImNHWRhmFkWaYN860c3-fzFFB3XuUN6V0/edit?usp=sharing)
+
 **Hybrid _TQU_ Needlet ILC to mitigate Galactic foregrounds in tSZ reconstruction**
 _Contributed talk_ — Galactic Science and CMB Foregrounds, Instituto de Astrofísica de Canarias, Tenerife, Spain, October 2026.
 
@@ -37,6 +41,7 @@ Proceedings accepted.
 
 **A refined Planck thermal SZ Compton _y_-parameter all-sky map to probe the entire hot gas in the Universe**
 _Talk_ — IX Meeting on Fundamental Cosmology, Instituto de Astrofísica de Canarias, Tenerife, Spain, November 2023.
+[slides](https://docs.google.com/presentation/d/1Hz7Czg7zreyclmWEwJVtP3pkFEzIT4DPF40PubMbxfE/edit?usp=sharing)
 
 **An updated and improved thermal SZ _y_-map from Planck NPIPE data**
 _Talk_ — mm Universe 2023: Observing the Universe at millimetre wavelengths, LPSC, Grenoble, France, June 2023.
