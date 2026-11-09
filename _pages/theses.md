@@ -3,7 +3,7 @@ layout: page
 permalink: /theses/
 title: theses
 description: Academic theses and dissertations.
-nav: true
+nav: false
 nav_order: 5
 ---
 

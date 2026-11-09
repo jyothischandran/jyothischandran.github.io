@@ -3,7 +3,7 @@ layout: page
 permalink: /presentations/
 title: presentations
 description: Presentations and talks at conferences and seminars.
-nav: true
+nav: false
 nav_order: 4
 ---
 
