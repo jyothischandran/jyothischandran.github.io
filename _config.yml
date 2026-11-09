@@ -197,6 +197,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _posts/2020-09-28-twitter.md
+  - assets/jupyter/
 keep_files:
   - CNAME
   - .nojekyll
@@ -218,7 +220,7 @@ plugins:
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
-  - jekyll-twitter-plugin
+  # - jekyll-twitter-plugin # disabled due to network restrictions
   - jemoji
 
 # Sitemap settings
