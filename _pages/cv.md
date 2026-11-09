@@ -5,10 +5,6 @@ title: cv
 description: Curriculum vitae.
 nav: true
 nav_order: 7
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
 ---
 
 <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">

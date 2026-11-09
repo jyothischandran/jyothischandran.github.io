@@ -3,7 +3,7 @@ layout: page
 permalink: /certifications/
 title: certifications
 description: Professional certifications and credentials.
-nav: true
+nav: false
 nav_order: 6
 ---
 
