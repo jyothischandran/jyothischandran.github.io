@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>IFCA-UC</p>
     <p>Santander, Spain</p>
+    <p><a href="mailto:chandran@ifca.es">chandran@ifca.es</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
