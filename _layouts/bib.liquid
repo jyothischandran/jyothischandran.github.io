@@ -108,14 +108,6 @@
         {%- if more_authors > 1 -%}
           {% assign more_authors_hide = more_authors_hide | append: 's' %}
         {%- endif -%}
-        {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
-          {% unless forloop.last %}
-            {% assign more_authors_show = more_authors_show | append: ', ' %}
-          {% endunless %}
-        {%- endfor -%}
-        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         {%- comment -%} Keep the site owner visible when they fall in the truncated part of a long author list. {%- endcomment -%}
         {%- assign hidden_self = false -%}
         {%- for author in entry.author_array offset: author_array_limit -%}
@@ -131,25 +123,7 @@
             {{ hidden_self.last -}}
           </em>
         {%- endif -%}
-        , and
-        <span
-          class="more-authors"
-          title="click to view {{ more_authors_hide }}"
-          onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '{{ site.more_authors_animation_delay }}');
-          "
-        >
-          {{- more_authors_hide -}}
-        </span>
+        , and {{ more_authors_hide }}
       {% endif %}
       {% if entry.annotation %}
         <i
@@ -208,7 +182,7 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract-btn btn btn-sm z-depth-0" role="button" aria-expanded="false">Abstract</a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -380,9 +354,10 @@
     {% endif %}
 
     {% if entry.abstract %}
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
+      <!-- Abstract: the first lines are shown, the rest expands on click -->
+      <div class="abstract-preview">
+        <p class="abstract-text">{{ entry.abstract }}</p>
+        <a class="abstract-toggle" role="button" aria-expanded="false">Show more</a>
       </div>
     {% endif %}
 

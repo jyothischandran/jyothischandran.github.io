@@ -15,6 +15,28 @@ $(document).ready(function () {
     $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
   });
+  // abstracts show their first lines; "Show more" or the Abstract button expands them
+  function toggleAbstract(box) {
+    var expanded = box.toggleClass("expanded").hasClass("expanded");
+    box
+      .find(".abstract-toggle")
+      .text(expanded ? "Show less" : "Show more")
+      .attr("aria-expanded", expanded);
+    box.closest(".row").find("a.abstract-btn").attr("aria-expanded", expanded);
+  }
+  $("a.abstract-toggle").click(function () {
+    toggleAbstract($(this).closest(".abstract-preview"));
+  });
+  $("a.abstract-btn").click(function () {
+    toggleAbstract($(this).closest(".row").find(".abstract-preview"));
+  });
+  // no toggle needed when the whole abstract already fits
+  $(".abstract-preview").each(function () {
+    var text = $(this).find(".abstract-text")[0];
+    if (text.scrollHeight <= text.clientHeight + 1) {
+      $(this).addClass("short");
+    }
+  });
   $("a").removeClass("waves-effect waves-light");
 
   // bootstrap-toc

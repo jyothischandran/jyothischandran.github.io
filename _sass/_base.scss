@@ -874,6 +874,40 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
+      // Abstract preview: first four lines, expandable
+      .abstract-preview {
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+
+        .abstract-text {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 4;
+          line-clamp: 4;
+          overflow: hidden;
+          margin: 0;
+          line-height: 1.4em;
+          text-align: justify;
+        }
+
+        &.expanded .abstract-text {
+          display: block;
+          -webkit-line-clamp: unset;
+          line-clamp: unset;
+          overflow: visible;
+        }
+
+        .abstract-toggle {
+          cursor: pointer;
+          font-size: 0.8rem;
+          color: var(--global-theme-color);
+        }
+
+        &.short .abstract-toggle {
+          display: none;
+        }
+      }
+
       // Long BibTeX entries (e.g. collaboration papers with 100+ authors)
       // scroll inside a capped box instead of stretching the page.
       div.bibtex.hidden.open {
