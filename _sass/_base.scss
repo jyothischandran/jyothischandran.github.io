@@ -874,6 +874,13 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
+      // Long BibTeX entries (e.g. collaboration papers with 100+ authors)
+      // scroll inside a capped box instead of stretching the page.
+      div.bibtex.hidden.open {
+        max-height: 24em;
+        overflow-y: auto;
+      }
+
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
       }
