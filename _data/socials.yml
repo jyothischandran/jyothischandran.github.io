@@ -1,58 +1,19 @@
 # this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
+# (the full list of supported keys is in _includes/social.liquid and
+# _scripts/search.liquid.js; `ads_url` is a site-specific addition)
 
-# academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
-#  organization: princeton # your organization as appears in the subdomain
-#  username:  AlbertEinstein # your username
-# acm_id: # your dl.acm.org/profile/id
-# arxiv_id: # your arXiv author ID
-# blogger_url: # your blogger URL
-# bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-# dblp_url: # your DBLP profile url
-# discord_id: # your discord id (18-digit unique numerical identifier)
-email: you@example.com # your email address
-# facebook_id: # your facebook id
-# flickr_id: # your flickr id
-# github_username: # your GitHub user name
-# gitlab_username: # your GitLab user name
-# hal_id: # your HAL id (https://hal.science/)
-# ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
-# instagram_id: # your instagram id
-# kaggle_id: # your kaggle id
-# keybase_username: # your keybase user name
-# lastfm_id: # your lastfm id
-# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-# leetcode_id: # your LeetCode id
+# TODO(Jyo): the CV uses chandran@ifca.unican.es, the site uses chandran@ifca.es.
+# Pick one and make this file, the footer (_config.yml), the about page and the CV consistent.
+email: chandran@ifca.es # your email address
+orcid_id: 0000-0002-5805-3901 # your ORCID ID
+scholar_userid: NK2978EAAAAJ # your Google Scholar ID
+ads_url: https://ui.adsabs.harvard.edu/public-libraries/MIgXzImOTZWB6_MpgBuSGw # NASA ADS public library
+# TODO(Jyo): INSPIRE-HEP author ID, if you have one. Uncomment and fill in:
+# inspirehep_id: # Inspire HEP author ID
+github_username: jyothischandran # your GitHub user name
+# TODO(Jyo): LinkedIn handle. Uncomment and fill in:
 # linkedin_username: # your LinkedIn user name
-# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-# medium_username: # your Medium username
-# orcid_id: # your ORCID ID
-# osf_id: # your OSF ID
-# pinterest_id: # your pinterest id
-# publons_id: # your ID on Publons
-# quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
-# spotify_id: # your spotify id
-# stackoverflow_id: # your stackoverflow id
-# strava_userid: # your strava user id
-# telegram_username: # your Telegram user name
-# unsplash_id: # your unsplash id
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-# wikidata_id: # your wikidata id
-# wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
-# x_username: # your X handle
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-# zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# TODO(Jyo): Instagram handle (kept last among the profiles). Uncomment and fill in:
+# instagram_id: # your instagram id
+cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file

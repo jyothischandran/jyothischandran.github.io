@@ -107,6 +107,10 @@ ninja.data = [
           {%- assign social_id = "social-acm" -%}
           {%- assign social_title = "ACM DL" -%}
           {%- capture social_url %}"https://dl.acm.org/profile/{{ social[1] }}/"{% endcapture -%}
+        {%- when "ads_url" -%}
+          {%- assign social_id = "social-ads" -%}
+          {%- assign social_title = "NASA ADS" -%}
+          {%- capture social_url %}"{{ social[1] }}"{% endcapture -%}
         {%- when "arxiv_id" -%}
           {%- assign social_id = "social-arxiv" -%}
           {%- assign social_title = "arXiv" -%}
