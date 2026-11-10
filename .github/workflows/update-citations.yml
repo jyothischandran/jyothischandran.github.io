@@ -14,7 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      # See CUSTOMIZE.md for details on how to set up PAT for triggering subsequent workflows
+      # To let the citation commit trigger a redeploy, set up a PAT as described in
+      # al-folio's CUSTOMIZE.md: https://github.com/alshedivat/al-folio/blob/main/CUSTOMIZE.md
       #        with:
       #          token: ${{ secrets.PAT }}
 
