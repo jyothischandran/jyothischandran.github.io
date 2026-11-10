@@ -224,6 +224,8 @@
       {% when 'zotero_username' %}
         {% capture link %}https://www.zotero.org/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'cv_pdf' %}
+        {% comment %} the CV is not a profile, so leave it out of sameAs {% endcomment %}
       {% else %}
         {% assign sameaslinks = sameaslinks | push: social[1].url %}
     {% endcase %}
