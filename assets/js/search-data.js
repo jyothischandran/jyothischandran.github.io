@@ -31,7 +31,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "news-first-paper-published-in-mnras-an-improved-planck-pr4-compton-y-map-doi-10-1093-mnras-stad3156-the-map-is-public-on-zenodo-and-the-planck-legacy-archive",
-          title: 'First paper published in MNRAS: an improved Planck PR4 Compton-_y_ map (doi:10.1093/mnras/stad3156). The...',
+          title: 'First paper published in MNRAS: an improved Planck PR4 Compton-y map (doi:10.1093/mnras/stad3156). The...',
           description: "",
           section: "News",},{id: "news-joined-the-litebird-collaboration-thermal-sz-project-study-group",
           title: 'Joined the LiteBIRD collaboration (thermal SZ project study group).',
@@ -58,7 +58,7 @@ ninja.data = [{
           title: 'Contributed talk on Hybrid TQU NILC at Galactic Science and CMB Foregrounds, IAC,...',
           description: "",
           section: "News",},{id: "news-talk-on-polarization-informed-component-separation-for-thermal-sz-compton-y-maps-at-the-xii-meeting-on-fundamental-cosmology-córdoba-slides",
-          title: 'Talk on polarization-informed component separation for thermal SZ Compton-_y_ maps at the XII...',
+          title: 'Talk on polarization-informed component separation for thermal SZ Compton-y maps at the XII...',
           description: "",
           section: "News",},{
         id: 'social-email',
