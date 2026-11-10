@@ -31,7 +31,7 @@ latest_posts:
 
 I'm a PhD candidate at the Instituto de Física de Cantabria (IFCA, CSIC–UC) in Santander, supervised by Belén Barreiro and Mathieu Remazeilles. I develop component-separation methods that extract faint cosmological signals from multi-frequency CMB data.
 
-Much of my work so far has been on the thermal Sunyaev–Zeldovich (tSZ) effect, the imprint of hot gas in galaxy clusters and the cosmic web. I produced the _Planck_ PR4 NILC Compton-_y_ map (MNRAS 2023). It is public through the _Planck_ Legacy Archive and Zenodo and is used by other groups. I then developed a multi-Stokes Hybrid NILC that uses _Planck_ polarization maps to clean Galactic dust and synchrotron from the essentially unpolarized tSZ signal, combined with selective deprojection of CIB spectral moments (JCAP 2026).
+Much of my work so far has been on the thermal Sunyaev–Zeldovich (tSZ) effect, the imprint of hot gas in galaxy clusters and the cosmic web. I produced the _Planck_ PR4 NILC Compton-<em>y</em> map (MNRAS 2023). It is public through the _Planck_ Legacy Archive and Zenodo and is used by other groups. I then developed a multi-Stokes Hybrid NILC that uses _Planck_ polarization maps to clean Galactic dust and synchrotron from the essentially unpolarized tSZ signal, combined with selective deprojection of CIB spectral moments (JCAP 2026).
 
 <!-- TODO(Jyo): confirm the free-free wording. You describe this work as GNILC; the CV says "ILC and NILC pipelines". -->
 
