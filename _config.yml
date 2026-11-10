@@ -267,7 +267,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Chandran]
-  first_name: [Jyothis]
+  first_name: [Jyothis, J.]
 
   style: apa
   locale: en

@@ -116,6 +116,17 @@
           {% endunless %}
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- comment -%} Keep the site owner visible when they fall in the truncated part of a long author list. {%- endcomment -%}
+        {%- assign hidden_self = false -%}
+        {%- for author in entry.author_array offset: author_array_limit -%}
+          {%- assign hidden_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+          {%- if site.scholar.last_name contains hidden_last_name and site.scholar.first_name contains author.first -%}
+            {%- assign hidden_self = author -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if hidden_self -%}
+          , …, <em>{{ hidden_self.first }} {{ hidden_self.last }}</em>
+        {%- endif -%}
         , and
         <span
           class="more-authors"
