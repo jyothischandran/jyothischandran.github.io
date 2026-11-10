@@ -17,25 +17,3 @@ _Last updated: October 2026._
   Your browser does not display embedded PDFs.
   <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">Download the CV instead.</a>
 </iframe>
-
-<!--
-  NOTE ON al-folio VERSIONS
-  Recent al-folio ships a dedicated `layout: cv` that renders a CV from
-  assets/json/resume.json, with an optional PDF download button set via a
-  `cv_pdf:` key in this front matter. If your version has it and you would
-  rather have an HTML CV than an embedded PDF, replace the front matter with:
-
-      ---
-      layout: cv
-      permalink: /cv/
-      title: cv
-      nav: true
-      nav_order: 5
-      cv_pdf: cv.pdf
-      description: Curriculum vitae.
-      ---
-
-  and delete the body of this file. Check _layouts/ for cv.liquid (or cv.html)
-  before switching — if it is absent, keep the version above, which needs
-  nothing but the PDF.
--->

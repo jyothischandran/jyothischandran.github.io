@@ -28,18 +28,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# Theme
-# -----------------------------------------------------------------------------
-
-# repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
-
-# -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
 # will use title and url fields
@@ -151,8 +139,6 @@ collections:
     defaults:
       layout: post
     output: true
-  projects:
-    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -196,7 +182,6 @@ plugins:
   - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
@@ -375,12 +360,11 @@ enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
+enable_masonry: false # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
@@ -613,25 +597,3 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
