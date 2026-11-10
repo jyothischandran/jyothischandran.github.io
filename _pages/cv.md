@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 description: Curriculum vitae.
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
 <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">
