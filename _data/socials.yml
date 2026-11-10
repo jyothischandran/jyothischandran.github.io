@@ -3,9 +3,7 @@
 # (the full list of supported keys is in _includes/social.liquid and
 # _scripts/search.liquid.js; `ads_url` is a site-specific addition)
 
-# TODO(Jyo): the CV uses chandran@ifca.unican.es, the site uses chandran@ifca.es.
-# Pick one and make this file, the footer (_config.yml), the about page and the CV consistent.
-email: chandran@ifca.es # your email address
+email: chandran@ifca.es # preferred address (chandran@ifca.unican.es also works)
 orcid_id: 0000-0002-5805-3901 # your ORCID ID
 scholar_userid: NK2978EAAAAJ # your Google Scholar ID
 ads_url: https://ui.adsabs.harvard.edu/public-libraries/MIgXzImOTZWB6_MpgBuSGw # NASA ADS public library

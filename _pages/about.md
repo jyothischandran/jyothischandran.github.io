@@ -8,7 +8,6 @@ profile:
   align: right
   image: my_photo.jpg
   image_circular: false # crops the image to make it circular
-  # TODO(Jyo): the CV uses chandran@ifca.unican.es; pick one address and use it everywhere.
   more_info: >
     <p>IFCA (CSIC–UC)</p>
     <p>Santander, Spain</p>
@@ -33,6 +32,4 @@ I'm a PhD candidate at the Instituto de Física de Cantabria (IFCA, CSIC–UC) i
 
 Much of my work so far has been on the thermal Sunyaev–Zeldovich (tSZ) effect, the imprint of hot gas in galaxy clusters and the cosmic web. I produced the _Planck_ PR4 NILC Compton-<em>y</em> map (MNRAS 2023). It is public through the _Planck_ Legacy Archive and Zenodo and is used by other groups. I then developed a multi-Stokes Hybrid NILC that uses _Planck_ polarization maps to clean Galactic dust and synchrotron from the essentially unpolarized tSZ signal, combined with selective deprojection of CIB spectral moments (JCAP 2026).
 
-<!-- TODO(Jyo): confirm the free-free wording. You describe this work as GNILC; the CV says "ILC and NILC pipelines". -->
-
-Within the Horizon Europe RadioForegroundsPlus project, I'm now working on non-parametric, GNILC-based reconstruction of Galactic free-free emission, and on convolutional neural networks for detecting extragalactic point sources in CMB maps. As a member of the LiteBIRD collaboration's thermal SZ group, I'm working towards a forecast for the tSZ × ISW cross-correlation. More broadly, I'm interested in secondary anisotropies, spectral distortions, cross-correlations with galaxy surveys, and line intensity mapping.
+Within the Horizon Europe RadioForegroundsPlus project, I'm now working on two things. The first is non-parametric reconstruction of Galactic free-free emission: I started with NILC and its hybrid and constrained variants, and have moved on to GNILC with deprojection. The second is convolutional neural networks for detecting extragalactic point sources in CMB maps. As a member of the LiteBIRD collaboration's thermal SZ group, I'm working towards a forecast for the tSZ × ISW cross-correlation. More broadly, I'm interested in secondary anisotropies, spectral distortions, cross-correlations with galaxy surveys, and line intensity mapping.

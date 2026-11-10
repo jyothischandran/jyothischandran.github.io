@@ -16,28 +16,18 @@ _Talk_ — XII Meeting on Fundamental Cosmology, University of Córdoba, Córdob
 **Hybrid _TQU_ Needlet ILC to mitigate Galactic foregrounds in tSZ reconstruction**
 _Contributed talk_ — Galactic Science and CMB Foregrounds, Instituto de Astrofísica de Canarias, Tenerife, Spain, October 2026.
 
-<!-- TODO(Jyo): slides link for the IAC talk, e.g. [slides](/assets/pdf/talks/2026-10-tenerife.pdf) -->
-
 **Improved foreground cleaning via polarization-aided cleaning and CIB deprojection in thermal SZ Compton-<em>y</em> maps**
 _Talk_ — Cosmoglobe 2026: Global End-to-End Analysis at All Frequencies, Nordita, Stockholm, Sweden, September 2026.
-
-<!-- TODO(Jyo): slides link for the Cosmoglobe talk, e.g. [slides](/assets/pdf/talks/2026-09-nordita.pdf) -->
 
 **Enhanced foreground mitigation in thermal SZ Compton-<em>y</em> maps via polarization-aided cleaning and CIB deprojection**
 _Talk_ — COSMO-26: International Conference on Particle Physics and Cosmology, Leiden, Netherlands, August 2026.
 
-<!-- TODO(Jyo): slides link for the COSMO-26 talk, e.g. [slides](/assets/pdf/talks/2026-08-cosmo26.pdf) -->
-
 **Enhanced foreground mitigation in thermal SZ Compton-<em>y</em> maps via polarization and deprojection**
 _Talk_ — Simons Observatory Foregrounds Working Group meeting, May 2026.
-
-<!-- TODO(Jyo): slides link for the SO FG WG talk, if it can be public. -->
 
 **Enhanced foreground mitigation in thermal SZ Compton-<em>y</em> maps via polarization**
 _Poster_ — 60th Rencontres de Moriond, Cosmology 2026, La Thuile, Italy, March 2026.
 Proceedings accepted.
-
-<!-- TODO(Jyo): poster link for Moriond, e.g. [poster](/assets/pdf/talks/2026-03-moriond.pdf) -->
 
 <!-- TODO(Jyo): any 2024–25 talks or seminars to add here? -->
 
