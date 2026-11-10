@@ -9,6 +9,7 @@ This file briefs Claude Code on Jyo's personal academic website (al-folio theme 
 **Source of truth.** Use `assets/pdf/cv.pdf` (and its LaTeX source, if it is in the repo or nearby) for facts, dates, IDs and links. Do not invent numbers, dates, IDs or URLs. If something is missing, leave a `TODO(Jyo):` marker and list it at the end of the session.
 
 **Workflow.**
+
 1. **Exclude this file from the build.** Add `HANDOFF.md` to the `exclude:` list in `_config.yml`, so Jekyll doesn't publish it as a page.
 2. **Use a branch.** Work on `site-cleanup`, with one commit per task below and clear commit messages.
 3. **Check the al-folio version first.** Key names in `_config.yml` and `_data/socials.yml` differ between versions, so read the local files and their comments before editing.
@@ -30,6 +31,7 @@ The live sitemap currently lists about 90 URLs, and only 5 are real pages (about
 - **Demo data files.** Check `_data/` (repositories.yml, coauthors.yml, venues.yml and similar). Empty or delete demo entries that are no longer used.
 
 **Acceptance check.**
+
 - After a build, `_site/sitemap.xml` lists only real pages.
 - `_site/assets/js/search-data.js` contains only real pages, real publications and real socials.
 
@@ -87,6 +89,7 @@ Then set `social: true` on the about page.
 Switch on the homepage modules: `news: true`, `selected_papers: true` and `social: true`.
 
 **Subtitle / tagline:**
+
 ```
 PhD candidate · CMB component separation · thermal SZ
 ```
@@ -95,7 +98,7 @@ PhD candidate · CMB component separation · thermal SZ
 
 > I'm a PhD candidate at the Instituto de Física de Cantabria (IFCA, CSIC–UC) in Santander, supervised by Belén Barreiro and Mathieu Remazeilles. I develop component-separation methods that extract faint cosmological signals from multi-frequency CMB data.
 >
-> Much of my work so far has been on the thermal Sunyaev–Zeldovich (tSZ) effect, the imprint of hot gas in galaxy clusters and the cosmic web. I produced the *Planck* PR4 NILC Compton-*y* map (MNRAS 2023). It is public through the *Planck* Legacy Archive and Zenodo and is used by other groups. I then developed a multi-Stokes Hybrid NILC that uses *Planck* polarization maps to clean Galactic dust and synchrotron from the essentially unpolarized tSZ signal, combined with selective deprojection of CIB spectral moments (JCAP 2026).
+> Much of my work so far has been on the thermal Sunyaev–Zeldovich (tSZ) effect, the imprint of hot gas in galaxy clusters and the cosmic web. I produced the _Planck_ PR4 NILC Compton-_y_ map (MNRAS 2023). It is public through the _Planck_ Legacy Archive and Zenodo and is used by other groups. I then developed a multi-Stokes Hybrid NILC that uses _Planck_ polarization maps to clean Galactic dust and synchrotron from the essentially unpolarized tSZ signal, combined with selective deprojection of CIB spectral moments (JCAP 2026).
 >
 > Within the Horizon Europe RadioForegroundsPlus project, I'm now working on non-parametric, GNILC-based reconstruction of Galactic free-free emission, and on convolutional neural networks for detecting extragalactic point sources in CMB maps. As a member of the LiteBIRD collaboration's thermal SZ group, I'm working towards a forecast for the tSZ × ISW cross-correlation. More broadly, I'm interested in secondary anisotropies, spectral distortions, cross-correlations with galaxy surveys, and line intensity mapping.
 
@@ -103,25 +106,25 @@ An optional closing line about a personal or community interest can be added lat
 
 **News items (`_news/`).** Use one file per item with `inline: true`. TODO(Jyo): exact days. Use the 1st of the month as a placeholder and flag it.
 
-| Date | Text |
-|---|---|
-| 2026-11 | Talk on polarization-informed component separation for tSZ *y*-maps at the XII Meeting on Fundamental Cosmology, Córdoba (link the slides). |
-| 2026-10 | Contributed talk on Hybrid *TQU* NILC at *Galactic Science and CMB Foregrounds*, IAC, Tenerife. |
-| 2026-09 | Talk at *Cosmoglobe 2026*, Nordita, Stockholm. |
-| 2026-08-27 | Our paper on polarization-aided foreground cleaning of tSZ *y*-maps is out in JCAP (link the DOI). |
-| 2026-08 | Talk at COSMO-26, Leiden. |
-| 2026-05 | Talk at the Simons Observatory Foregrounds Working Group. |
-| 2026-03 | Paper on arXiv; CIB-deprojected Hybrid NILC *y*-maps released on Zenodo. Poster at the 60th Rencontres de Moriond, La Thuile. |
-| 2026, TODO date | Our PR4 *y*-map was used to study hot gas around the Sombrero galaxy (Li et al., ApJ 1009, 72) and in FRB–tSZ cross-correlations (Zhai et al., arXiv:2608.09014). |
-| 2024-01 | Joined the LiteBIRD collaboration (thermal SZ project study group). |
-| 2023-12 | First paper published in MNRAS: an improved PR4 Compton-*y* map (map public on Zenodo and the PLA). |
+| Date            | Text                                                                                                                                                              |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-11         | Talk on polarization-informed component separation for tSZ _y_-maps at the XII Meeting on Fundamental Cosmology, Córdoba (link the slides).                       |
+| 2026-10         | Contributed talk on Hybrid _TQU_ NILC at _Galactic Science and CMB Foregrounds_, IAC, Tenerife.                                                                   |
+| 2026-09         | Talk at _Cosmoglobe 2026_, Nordita, Stockholm.                                                                                                                    |
+| 2026-08-27      | Our paper on polarization-aided foreground cleaning of tSZ _y_-maps is out in JCAP (link the DOI).                                                                |
+| 2026-08         | Talk at COSMO-26, Leiden.                                                                                                                                         |
+| 2026-05         | Talk at the Simons Observatory Foregrounds Working Group.                                                                                                         |
+| 2026-03         | Paper on arXiv; CIB-deprojected Hybrid NILC _y_-maps released on Zenodo. Poster at the 60th Rencontres de Moriond, La Thuile.                                     |
+| 2026, TODO date | Our PR4 _y_-map was used to study hot gas around the Sombrero galaxy (Li et al., ApJ 1009, 72) and in FRB–tSZ cross-correlations (Zhai et al., arXiv:2608.09014). |
+| 2024-01         | Joined the LiteBIRD collaboration (thermal SZ project study group).                                                                                               |
+| 2023-12         | First paper published in MNRAS: an improved PR4 Compton-_y_ map (map public on Zenodo and the PLA).                                                               |
 
 ### 1.5 Metadata and SEO (`_config.yml`)
 
 - **Meta description:**
   `description: "PhD candidate at IFCA (CSIC–UC) working on CMB component separation: Planck PR4 thermal SZ Compton-y maps, Galactic foregrounds and LiteBIRD."`
 - **Social previews and structured data:** set `serve_og_meta: true` and `serve_schema_org: true`. These make link previews work on WhatsApp, Slack and LinkedIn.
-- **Preview image:** set `og_image` to the profile photo for now. Replace it with a *y*-map image in Phase 2.
+- **Preview image:** set `og_image` to the profile photo for now. Replace it with a _y_-map image in Phase 2.
 - **Search Console:** add `google_site_verification:` with `TODO(Jyo)`; Jyo gets the code from Google Search Console.
 - **Keywords:** set `keywords` (if supported) to: CMB, component separation, Sunyaev-Zeldovich, Compton-y, Planck PR4, NILC, foregrounds, LiteBIRD.
 - **Site URL:** confirm that `url` is `https://jyothischandran.github.io` and `baseurl` is empty.
@@ -147,13 +150,13 @@ An optional closing line about a personal or community interest can be added lat
 
 **Data products page** (`/data/`), with one section per product:
 
-- **PR4 NILC *y*-map (2023).**
-  - Links: *Planck* Legacy Archive and Zenodo (DOI per 1.3).
+- **PR4 NILC _y_-map (2023).**
+  - Links: _Planck_ Legacy Archive and Zenodo (DOI per 1.3).
   - Released with its masks.
-  - Results: 7% lower thermal noise and 34% less CIB contamination than the PR2 *y*-map; σ8 = 0.76 ± 0.02 from map skewness.
+  - Results: 7% lower thermal noise and 34% less CIB contamination than the PR2 _y_-map; σ8 = 0.76 ± 0.02 from map skewness.
   - Used by: Li et al. 2026 (Sombrero) and Zhai et al. 2026 (FRB–tSZ).
   - Usage: 655 downloads and 1,166 views (Zenodo, October 2026); refresh before publishing.
-- **Hybrid *TQU* NILC with CIB moment deprojection (2026).**
+- **Hybrid _TQU_ NILC with CIB moment deprojection (2026).**
   - Link: Zenodo.
   - Result: 40–45% lower cross-correlation with IRAS 100 µm than the temperature-only map.
   - Used by: Zhai et al.
@@ -168,7 +171,7 @@ An optional closing line about a personal or community interest can be added lat
 
 **Research pages**, one short page per area, with one figure, two paragraphs and links:
 
-- tSZ *y*-maps from *Planck* PR4
+- tSZ _y_-maps from _Planck_ PR4
 - Multi-Stokes Hybrid NILC and CIB deprojection
 - Galactic free-free reconstruction (GNILC)
 - CNN point-source detection (RadioForegroundsPlus)
@@ -189,10 +192,10 @@ An optional closing line about a personal or community interest can be added lat
 
 **Visual identity:**
 
-- A *y*-map crop as the homepage banner and OG image.
+- A _y_-map crop as the homepage banner and OG image.
 - A small cluster blob as the favicon, replacing the current sparkle emoji.
 
-**Interactive *y*-map (stretch goal):**
+**Interactive _y_-map (stretch goal):**
 
 - Convert the HEALPix map to HiPS (hipsgen) and embed Aladin Lite.
 - Watch tile volume on GitHub Pages: keep low orders only, or host the tiles elsewhere.

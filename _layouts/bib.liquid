@@ -125,7 +125,11 @@
           {%- endif -%}
         {%- endfor -%}
         {%- if hidden_self -%}
-          , …, <em>{{ hidden_self.first }} {{ hidden_self.last }}</em>
+          , …,
+          <em>
+            {{- hidden_self.first }}
+            {{ hidden_self.last -}}
+          </em>
         {%- endif -%}
         , and
         <span
